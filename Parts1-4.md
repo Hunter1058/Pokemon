@@ -1,3 +1,9 @@
+This is the divison we decided upon. remember we are using **Pikachu, Mudkip, Magikarp** as our pkm
+Person 1: Penina
+Person 2: Hunter
+Person 3: Eugenie
+Person 4: Eriko
+
 :busts_in_silhouette: Team Breakdown (4 People)
 :technologist: Person 1: Move Class Developer
 Main responsibility: Build the Move class
