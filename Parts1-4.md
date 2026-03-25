@@ -1,4 +1,5 @@
-This is the divison we decided upon. remember we are using **Pikachu, Mudkip, Magikarp** as our pkm
+This is the divison we decided upon. remember we are using **Pikachu, Mudkip, Magikarp** as our pkm.
+
 Person 1: Penina
 Person 2: Hunter
 Person 3: Eugenie
