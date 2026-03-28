@@ -55,4 +55,20 @@ for move in range(3):
     MovePool.remove(randomMove)
 input("Press Enter to continue... ")
 
- 
+ # Create Pokemon objects
+pikachu = Pokemon("Pikachu", "Electric", 60)
+mudkip = Pokemon("Mudkip", "Water", 55)
+magikarp = Pokemon("Magikarp", "Water", 65)
+
+# Print Pikachu info
+print(pikachu.get_info())
+# Heal Pikachu
+pikachu.heal()
+# Print Pikachu info again
+print(pikachu.get_info())
+
+# Pokemon list
+pokemon_list = [pikachu, mudkip, magikarp]
+# Loop through and print the mons
+for pokemon in pokemon_list:
+    print(pokemon.get_info())
