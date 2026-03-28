@@ -17,16 +17,21 @@ class Pokemon:
         self.hit_points += 15
         print(f"{self.name} has been healed to {self.hit_points} hit points.")
         
-# Placeholder class for Hunters move objects and list
+#Create move class
 class Move:
     def __init__(self, move_name, elemental_type, low_attack_points, high_attack_points):
-        pass  # Penina fills this in
+        self.move_name = move_name #store name of move
+        self.elemental_type = elemental_type #store element type of move
+        self.low_attack_points = low_attack_points #store minimum damage move can do
+        self.high_attack_points = high_attack_points #store maximum damage move can do
 
     def get_info(self):
-        pass  # Penina fills this in
+        #return string with move details
+        return f"{self.move_name} (Type: {self.elemental_type}): {self.low_attack_points} to {self.high_attack_points} Attack Points"
 
     def generate_attack_value(self):
-        pass  # Penina fills this in
+        #Generate and return a random attack value between the low and high points
+        return random.randint(self.low_attack_points,self.high_attack_points)
 
     # I made a basic class Move so I could run my code and make sure it works, the additional attributes still need made for it. --Hunter
 
@@ -50,3 +55,4 @@ for move in range(3):
     MovePool.remove(randomMove)
 input("Press Enter to continue... ")
 
+ 
