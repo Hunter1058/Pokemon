@@ -54,9 +54,9 @@ for move in range(3):
 input("Press Enter to continue... ")
 
  # Create Pokemon objects
-Charmander = Pokemon("Charmander", "Electric", 60)
-Squirtle = Pokemon("Squirtle", "Water", 55)
-Bulbasaur = Pokemon("Bulbasaur", "Water", 65)
+Charmander = Pokemon("Charmander", "Fire", 55)
+Squirtle = Pokemon("Squirtle", "Water", 65)
+Bulbasaur = Pokemon("Bulbasaur", "Grass", 60)
 
 # Print Charmander info
 print(Charmander.get_info())
