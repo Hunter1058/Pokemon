@@ -33,8 +33,6 @@ class Move:
         #Generate and return a random attack value between the low and high points
         return random.randint(self.low_attack_points,self.high_attack_points)
 
-    # I made a basic class Move so I could run my code and make sure it works, the additional attributes still need made for it. --Hunter
-
 # 9 Move objects, list, and random selector
 oTackle = Move("Tackle", "Normal", 5, 20)
 oQuickAttack = Move("Quick Attack", "Normal", 6, 25)
@@ -56,19 +54,19 @@ for move in range(3):
 input("Press Enter to continue... ")
 
  # Create Pokemon objects
-pikachu = Pokemon("Pikachu", "Electric", 60)
-mudkip = Pokemon("Mudkip", "Water", 55)
-magikarp = Pokemon("Magikarp", "Water", 65)
+Charmander = Pokemon("Charmander", "Electric", 60)
+Squirtle = Pokemon("Squirtle", "Water", 55)
+Bulbasaur = Pokemon("Bulbasaur", "Water", 65)
 
-# Print Pikachu info
-print(pikachu.get_info())
-# Heal Pikachu
-pikachu.heal()
-# Print Pikachu info again
-print(pikachu.get_info())
+# Print Charmander info
+print(Charmander.get_info())
+# Heal Charmander
+Charmander.heal()
+# Print Charmander info again
+print(Charmander.get_info())
 
 # Pokemon list
-pokemon_list = [pikachu, mudkip, magikarp]
+pokemon_list = [Charmander, Squirtle, Bulbasaur]
 # Loop through and print the mons
 for pokemon in pokemon_list:
     print(pokemon.get_info())
